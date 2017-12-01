@@ -1,0 +1,18 @@
+{
+  "name": "unlocker-function",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:hks-apps/unlocker-function.git",
+  "author": "Keisau CHING <keisau.ching@pierresaux.me>",
+  "license": "UNLICENSED",
+  "private": false,
+  "dependencies": {
+    "@google-cloud/firestore": "^0.10.0",
+    "@google-cloud/pubsub": "^0.15.0",
+    "config": "^1.28.1",
+    "serverless-google-cloudfunctions": "^1.1.0"
+  },
+  "engines": {
+    "node": "8.x"
+  }
+}
